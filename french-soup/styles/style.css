@@ -7,3 +7,56 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+header {
+  background-image: url("/french-soup/images/soup.jpg");
+  background-position: 0 0; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: 550px;
+  padding: 50px;
+  position: relative;
+}
+h1 {  
+  text-align: center;
+  color: white;
+  margin: 200px;
+  font-size: 3.5em;
+  text-align: center;
+}
+section {
+  padding: 100px;  
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+img {
+  display: block;
+  padding: 15px;
+  margin: 0 auto;
+  width: 60%;  
+}
+ol {
+  list-style: none;
+  padding: 0;
+}
+ol > li {
+  counter-increment: listcounter;
+}
+ol > li::before {
+  content: counter(listcounter) ")";
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+section {
+  padding: 100px 100px 100px;
+}
+.section {
+  padding: 0px 100px 100px;
+}
+h2 {
+  padding: 20px 20px 20px 0;
+}
